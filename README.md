@@ -47,7 +47,7 @@ git pull origin answers2 --no-rebase
 
 > O terminal renderizará com 4 janelas, sendo as 3 de cima representando em ordem: 1) O arquivo LOCAL antes do conflito; 2) O arquivo BASE (comum) do local e ao remoto; 3) O arquivo vindo do REMOTE. Em baixo como o arquivo está sendo mergeado para o commit
 
-> Alterne entre as janelas com <kbd>CTRL</kbd><kbd>W</kbd><kbd>H</kbd> e <kbd>CTRL</kbd><kbd>W</kbd><kbd>L</kbd> e hunks com `[c` `]c`
+> Alterne entre as janelas com <kbd>CTRL</kbd><kbd>W</kbd><kbd>W</kbd> e chunks com `[c` `]c`
 
 3. Utilize a cada demarcação `:diffg TIPO_DE_ARQUIVO_COM_A_OPÇÃO_CORRETA`. Sendo: `:diffg LO` para optar pelo **local** e `:diffg RE` para o **remoto**
 
@@ -69,7 +69,7 @@ git pull origin answers2 --no-rebase
 
 > O terminal renderizará com 3 janelas, sendo: 1) O arquivo LOCAL antes do conflito; 2) O arquivo que está sendo mergeado para o commit; 3) O arquivo vindo do REMOTE. 
 
-> Alterne entre as janelas com <kbd>CTRL</kbd><kbd>W</kbd><kbd>H</kbd> e <kbd>CTRL</kbd><kbd>W</kbd><kbd>L</kbd> e hunks com `[c` `]c`
+> Alterne entre as janelas com <kbd>CTRL</kbd><kbd>W</kbd><kbd>H</kbd> e <kbd>CTRL</kbd><kbd>W</kbd><kbd>L</kbd> e chunks com `[c` `]c`
 
 3. Utilize a cada demarcação `:diffg TIPO_DE_ARQUIVO_COM_A_OPÇÃO_CORRETA`. Sendo: `:diffg LO` para optar pelo **local** e `:diffg RE` para o **remoto**
 
