@@ -28,6 +28,8 @@ git pull origin answers2 --no-rebase
     -  Utilize `:diffg //2` para pegar atualizações do LOCAL ou `:diffg //3` do REMOTE para atualizar a janela do meio
     -  Utilize `d2o` para pegar atualizações do LOCAL ou `d3o` do REMOTE para atualizar a janela do meio
 
+4. Salve o buffer que está sendo mergeado e torneo *staged*
+
 ## Resolvendo com mergetool
 
 > Caso não tenha finalizado mas queira sair do merge, utilize `:cq` ao invés de `:qa` para avisar ao git que o merge não foi finalizado. Caso tenha saido sem querer com `:qa` e não consiga voltar a usar `git mergetool`, retome o status de "não resolvido" do arquivo com `git update-index --unresolve arquivo_existente.txt` ou cancele tudo com `git merge --abort`
@@ -51,7 +53,7 @@ git pull origin answers2 --no-rebase
 
 3. Utilize a cada demarcação `:diffg TIPO_DE_ARQUIVO_COM_A_OPÇÃO_CORRETA`. Sendo: `:diffg LO` para optar pelo **local** e `:diffg RE` para o **remoto**
 
-4. Salve a janela contendo o arquivo que está sendo mergeado com `:wqa`
+4. Salve o buffer que está sendo mergeado com `:wqa`
 
 ### Com vimdiff adaptado
 
@@ -73,7 +75,7 @@ git pull origin answers2 --no-rebase
 
 3. Utilize a cada demarcação `:diffg TIPO_DE_ARQUIVO_COM_A_OPÇÃO_CORRETA`. Sendo: `:diffg LO` para optar pelo **local** e `:diffg RE` para o **remoto**
 
-4. Salve a janela contendo o arquivo que está sendo mergeado com `:wqa`
+4. Salve o buffer que está sendo mergeado com `:wqa`
 
 ## Créditos
 
