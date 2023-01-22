@@ -28,7 +28,7 @@ git pull origin answers2 --no-rebase
     -  Utilize `:diffg //2` para pegar atualizações do LOCAL ou `:diffg //3` do REMOTE para atualizar a janela do meio
     -  Utilize `d2o` para pegar atualizações do LOCAL ou `d3o` do REMOTE para atualizar a janela do meio
 
-4. Salve o buffer que está sendo mergeado e torneo *staged*
+4. Salve o buffer que está sendo mergeado e torneo *staged* dentro de `:G`
 
 ## Resolvendo com mergetool
 
