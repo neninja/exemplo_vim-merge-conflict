@@ -30,7 +30,7 @@ git pull origin answers2 --no-rebase
 
 ## Resolvendo com mergetool
 
-> Caso não tenha finalizado mas queira sair do merge, utilize `:cq` ao invés de `:qa` para avisar ao git que o merge não foi finalizado. Caso tenha saido sem querer com `:qa` e não consiga voltar a usar `git mergetool`, retome o status de "não resolvido" do arquivo com `git update-index --unresolve arquivo_existente.txt`
+> Caso não tenha finalizado mas queira sair do merge, utilize `:cq` ao invés de `:qa` para avisar ao git que o merge não foi finalizado. Caso tenha saido sem querer com `:qa` e não consiga voltar a usar `git mergetool`, retome o status de "não resolvido" do arquivo com `git update-index --unresolve arquivo_existente.txt` ou cancele tudo com `git merge --abort`
 
 ### Com vimdiff/nvimdiff
 
