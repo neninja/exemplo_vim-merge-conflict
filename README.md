@@ -2,13 +2,13 @@
 
 1. Clone o projeto na branch específica
 ```sh
-git clone --branch conflictme git@github.com:nenitf/exemplo_vim-merge-conflict.git
+git clone --branch answers1 git@github.com:nenitf/exemplo_vim-merge-conflict.git
 cd exemplo_vim-merge-conflict
 ```
 
 2. Force o conflito
 ```sh
-git pull origin pullme --no-rebase
+git pull origin answers2 --no-rebase
 ```
 
 3. Opte pelo camiho do `vimdiff`, `vimdiff` adaptado ou do `fugitive`
