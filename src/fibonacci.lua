@@ -1,5 +1,3 @@
--- nvim --headless --clean -c 'luafile src/fibonacci.lua' +qa
-
 local function fibonacci(n)
   -- ...
   return 0
@@ -19,7 +17,7 @@ local tdt = {
   {10, 55},
 }
 
-for k, scenario in ipairs(tdt) do --pseudocode
+for _, scenario in ipairs(tdt) do
   local input = scenario[1]
   local want = scenario[2]
   local got = fibonacci(10)

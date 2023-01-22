@@ -1,5 +1,3 @@
-// node src/fibonacci.js
-
 function fibonacci(n) {
   // ...
   return 0;
