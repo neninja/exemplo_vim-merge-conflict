@@ -20,6 +20,6 @@ local tdt = {
 for _, scenario in ipairs(tdt) do
   local input = scenario[1]
   local want = scenario[2]
-  local got = fibonacci(10)
+  local got = fibonacci(input)
   assert(got == want, "with "..input..": "..want.." == "..got);
 end
