@@ -1,2 +1,2 @@
 - Javascript: `node src/desafio.js`
-- Lua: `nvim -lua src/desafio.lua`
+- Lua: `nvim -l src/desafio.lua`
