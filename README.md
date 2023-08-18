@@ -1,2 +1,3 @@
 - Javascript: `node src/desafio.js`
 - Lua: `nvim -l src/desafio.lua`
+- Vimscript: `nvim --headless --clean -c 'source src/desafio.vim' +qa`
