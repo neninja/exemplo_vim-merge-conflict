@@ -1,6 +1,9 @@
 function Fibonacci(n)
-    " ...
-    return 0
+    if (a:n <= 1)
+        return a:n
+    endif
+
+    return Fibonacci(a:n - 1) + Fibonacci(a:n - 2)
 endfunction
 
 let tdt = [
