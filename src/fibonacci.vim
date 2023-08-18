@@ -1,6 +1,19 @@
 function Fibonacci(n)
-    " ...
-    return 0
+    let a = 0
+    let b = 1
+    let c = a:n
+
+    if a:n < 2
+        return a:n
+    endif
+
+    for i in range(2, a:n)
+        let c = a + b
+        let a = b
+        let b = c
+    endfor
+
+    return c
 endfunction
 
 let tdt = [
