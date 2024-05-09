@@ -77,6 +77,30 @@ git pull origin answers2 --no-rebase
 
 4. Salve o buffer que está sendo mergeado com `:wqa`
 
+### Com vimdiff adaptado usando plugin [diffconflicts](https://github.com/whiteinge/diffconflicts)
+
+1. Configure o git mergetool corretamente no `~/.gitconfig`
+```gitconfig
+[merge]
+    tool = diffconflicts
+[mergetool "diffconflicts"]
+    cmd = nvim -c DiffConflicts \"$MERGED\" \"$BASE\" \"$LOCAL\" \"$REMOTE\"
+    trustExitCode = true
+    keepBackup = false
+```
+
+2. Execute com ``git mergetool``
+
+> O terminal renderizará 2 janelas, sendo: 1) O arquivo que deve ser alterado ja modificado com as alterações antes do conflito (`ours`); 2) O arquivo (sopmente visualização) com as alterações que causaram o conflito
+
+> Navegue entre chunks de diff com `[c` `]c`
+
+3. Atualize a primeira janela com o estado pretendido
+
+4. Salve o buffer da primeira janela e feche o editor para abrir o próximo arquivo a ser resolvido com `:xa`
+
+> Utilize `:cq` para abortar
+
 ## Créditos
 
 - [my-favorite-tools-to-resolve-git-merge-conflicts](https://blog.xoxzo.com/2019/03/29/my-favorite-tools-to-resolve-git-merge-conflicts/)
