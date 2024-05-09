@@ -77,7 +77,7 @@ git pull origin answers2 --no-rebase
 
 4. Salve o buffer que está sendo mergeado com `:wqa`
 
-### Com vimdiff adaptado usando plugin [diffconflicts](https://github.com/whiteinge/diffconflicts)
+### Com vimdiff adaptado usando plugin [diffconflicts](https://github.com/whiteinge/diffconflicts) (meu favorito)
 
 1. Configure o git mergetool corretamente no `~/.gitconfig`
 ```gitconfig
