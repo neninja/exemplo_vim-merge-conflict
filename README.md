@@ -91,7 +91,7 @@ git pull origin answers2 --no-rebase
 
 2. Execute com ``git mergetool``
 
-> O terminal renderizará 2 janelas, sendo: 1) O arquivo que deve ser alterado ja modificado com as alterações antes do conflito (`ours`); 2) O arquivo (sopmente visualização) com as alterações que causaram o conflito
+> O terminal renderizará 2 janelas, sendo: 1) O arquivo que deve ser alterado ja modificado com as alterações antes do conflito (`ours`); 2) O arquivo (somente visualização) com as alterações que causaram o conflito (`theirs`)
 
 > Navegue entre chunks de diff com `[c` `]c`
 
