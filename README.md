@@ -24,9 +24,9 @@ git pull origin answers2 --no-rebase
 > Alterne entre as janelas com <kbd>CTRL</kbd><kbd>W</kbd><kbd>H</kbd> e <kbd>CTRL</kbd><kbd>W</kbd><kbd>L</kbd> e chunks com `[c` `]c`
 
 3. Resolva e salve o arquivo do meio, possibilidades:
-    -  Utilize `dp` no LOCAL ou REMOTE para atualizar a janela do meio
-    -  Utilize `:diffg //2` para pegar atualizações do LOCAL ou `:diffg //3` do REMOTE para atualizar a janela do meio
-    -  Utilize `d2o` para pegar atualizações do LOCAL ou `d3o` do REMOTE para atualizar a janela do meio
+    - Utilize `dp` no LOCAL ou REMOTE para atualizar a janela do meio
+    - Utilize `:diffg //2` para pegar atualizações do LOCAL ou `:diffg //3` do REMOTE para atualizar a janela do meio
+    - Utilize `d2o` para pegar atualizações do LOCAL ou `d3o` do REMOTE para atualizar a janela do meio
 
 4. Salve o buffer que está sendo mergeado e torneo *staged* dentro de `:G`
 
@@ -96,6 +96,9 @@ git pull origin answers2 --no-rebase
 > Navegue entre chunks de diff com `[c` `]c`
 
 3. Atualize a primeira janela com o estado pretendido
+    - Utilize `do` ou `:diffget` no arquivo local (janela da esquerda) para atualizar de acordo com o conteudo do arquivo remoto (janela da direita)
+    - Utilize `dp` ou `:diffput` no arquivo remoto (janela da direita) para atualizar de acordo com seu conteudo
+    - Edite manualmente, copie e cole etc
 
 4. Salve o buffer da primeira janela e feche o editor para abrir o próximo arquivo a ser resolvido com `:xa`
 
